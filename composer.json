@@ -1,0 +1,23 @@
+{
+    "name": "estheban/phpunit-helper",
+    "description": "Small helpers to facilitate testing code",
+    "type": "library",
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=9.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PHPUnit\\Helper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Etienne Lachance",
+            "email": "github@etiennelachance.com"
+        }
+    ]
+}
